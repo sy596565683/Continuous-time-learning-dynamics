@@ -1,0 +1,46 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ]
+    },
+    "actor_critic":	"mlp_actor_critic",
+    "clip_ratio":	0.2,
+    "ent_coef":	0.1,
+    "env_fn":	"<function <lambda> at 0x7fe6accdfbf8>",
+    "epochs":	400,
+    "eval_env_fn":	"<function <lambda> at 0x7fe6accdfc80>",
+    "exp_name":	"fpo_clip_entropy(0.1)_pong_2p",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7fe6accdcdd8>":	{
+            "epoch_dict":	{},
+            "exp_name":	"fpo_clip_entropy(0.1)_pong_2p",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/hu/zhu/spinningup/data/fpo_clip_entropy(0.1)_pong_2p/fpo_clip_entropy(0.1)_pong_2p_s100",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/hu/zhu/spinningup/data/fpo_clip_entropy(0.1)_pong_2p/fpo_clip_entropy(0.1)_pong_2p_s100/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"fpo_clip_entropy(0.1)_pong_2p",
+        "output_dir":	"/home/hu/zhu/spinningup/data/fpo_clip_entropy(0.1)_pong_2p/fpo_clip_entropy(0.1)_pong_2p_s100"
+    },
+    "max_ep_len":	600,
+    "pi_lr":	0.0003,
+    "replay_epochs":	null,
+    "save_freq":	10,
+    "seed":	100,
+    "steps_per_epoch":	4000,
+    "target_kl":	0.01,
+    "train_pi_iters":	80,
+    "train_v_iters":	80,
+    "vf_lr":	0.001
+}
