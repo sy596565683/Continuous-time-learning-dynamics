@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/drl/zhu/spinningup/test/ppo_train_pong_2p.py", line 2, in <module>
+    from spinup import ppo2p_tf1 as ppo2p
+ModuleNotFoundError: No module named 'spinup'
